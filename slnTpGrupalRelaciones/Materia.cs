@@ -16,5 +16,7 @@ namespace slnTpGrupalRelaciones
 
         public string Nombre { get; set; }
         public string Programa { get; set; }
+        public Instructor Instructor { get; set; }
+        public Curso Curso { get; set; }
     }
 }

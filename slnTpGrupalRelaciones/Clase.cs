@@ -17,6 +17,7 @@ namespace slnTpGrupalRelaciones
         public DateTime Fin { get; set; }
         public DateTime Inicio { get; set; }
         public Aula Aula { get; set; }
+        public Curso Curso { get; set; }
 
     }
 }

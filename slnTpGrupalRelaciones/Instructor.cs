@@ -8,11 +8,12 @@ namespace slnTpGrupalRelaciones
 {
     public class Instructor: Persona
     {
-        public Instructor(string nombre, string apellido, List<Materia> materias): base(nombre, apellido)
+        public Instructor(string nombre, string apellido): base(nombre, apellido)
         {
-            Materias = materias;
+            
         }
 
         public List<Materia> Materias { get; set; }
+        public Curso Curso { get; set; }
     }
 }
