@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace slnTpGrupalRelaciones
 {
-    public class Class1
+    public abstract class Persona
     {
+        public Persona(string apellido, string nombre) 
+        {
+            Nombre = nombre;
+            Apellido= apellido;
+
+        }
+        public string Apellido { get; set; }
+        public string Nombre { get; set;}
     }
 }
