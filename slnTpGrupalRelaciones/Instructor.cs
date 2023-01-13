@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace slnTpGrupalRelaciones
 {
-    public class Instructor
+    public class Instructor: Persona
     {
+        public Instructor(string nombre, string apellido, List<Materia> materias): base(nombre, apellido)
+        {
+            Materias = materias;
+        }
+
+        public List<Materia> Materias { get; set; }
     }
 }

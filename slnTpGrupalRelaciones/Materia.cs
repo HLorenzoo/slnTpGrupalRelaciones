@@ -8,5 +8,13 @@ namespace slnTpGrupalRelaciones
 {
     public class Materia
     {
+        public Materia(string nombre, string programa)
+        {
+            Nombre = nombre;
+            Programa = programa;
+        }
+
+        public string Nombre { get; set; }
+        public string Programa { get; set; }
     }
 }
