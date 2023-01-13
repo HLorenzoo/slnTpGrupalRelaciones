@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace slnTpGrupalRelaciones
 {
-    public class Alumno 
+    public class Alumno:Persona
     {
+        public Alumno(string apellido, string nombre, bool regular):base(apellido, nombre) 
+        {
+            Regular = regular;
+        }
+        public bool Regular { get; set; }
     }
 }
