@@ -13,5 +13,6 @@ namespace slnTpGrupalRelaciones
             Regular = regular;
         }
         public bool Regular { get; set; }
+        public Curso Curso { get; set; }
     }
 }
