@@ -8,5 +8,13 @@ namespace slnTpGrupalRelaciones
 {
     public class Curso
     {
+        public List<Alumno> Alumnos { get; set; }
+
+        public List<Clase> Clases { get; set; }
+
+        public Instructor Instructor {get; set; }
+
+        public Materia Materia { get; set; }
+
     }
 }
